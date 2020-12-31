@@ -1,0 +1,61 @@
+TypeError: can't access property "ownerGlobal", aBrowser is null PrivateBrowsingUtils.jsm:40:21
+    isBrowserPrivate resource://gre/modules/PrivateBrowsingUtils.jsm:40
+    canAccessTab chrome://browser/content/parent/ext-browser.js:1204
+    getWrapper chrome://extensions/content/parent/ext-tabs-base.js:1912
+    revokeActiveTabPermission chrome://extensions/content/parent/ext-tabs-base.js:1862
+    revokeActiveTabPermission chrome://browser/content/parent/ext-browser.js:1198
+    clearPopup chrome://browser/content/parent/ext-browserAction.js:547
+    handleEvent chrome://browser/content/parent/ext-browserAction.js:450
+    onmouseout chrome://browser/content/parent/ext-browserAction.js:241
+    (Async: EventHandlerNonNull)
+    onCreated chrome://browser/content/parent/ext-browserAction.js:241
+    aEventName resource:///modules/CustomizableUI.jsm:2867
+    buildWidget resource:///modules/CustomizableUI.jsm:1788
+    getWidgetNode resource:///modules/CustomizableUI.jsm:1164
+    buildArea resource:///modules/CustomizableUI.jsm:974
+    registerToolbarNode resource:///modules/CustomizableUI.jsm:888
+    registerToolbarNode resource:///modules/CustomizableUI.jsm:3604
+    onDOMContentLoaded chrome://browser/content/browser.js:1814
+    onDOMContentLoaded self-hosted:844
+    (Async: EventListener.handleEvent)
+    <anonymous> chrome://browser/content/browser.xhtml:131
+
+ InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable PictureInPictureChild.jsm:114
+    get docState resource://gre/actors/PictureInPictureChild.jsm:114
+    stopTrackingMouseOverVideos resource://gre/actors/PictureInPictureChild.jsm:413
+    onIntersection resource://gre/actors/PictureInPictureChild.jsm:317
+    (Async: requestIdleCallback handler)
+    onIntersection resource://gre/actors/PictureInPictureChild.jsm:316
+    onIntersection self-hosted:844
+    (Async: IntersectionCallback)
+    registerVideo resource://gre/actors/PictureInPictureChild.jsm:239
+    handleEvent resource://gre/actors/PictureInPictureChild.jsm:189
+    Ie https://www.youtube.com/s/player/5dd3f3b2/player_ias.vflset/en_US/base.js:255
+    x0 https://www.youtube.com/s/player/5dd3f3b2/player_ias.vflset/en_US/base.js:5042
+    SAa https://www.youtube.com/s/player/5dd3f3b2/player_ias.vflset/en_US/base.js:5062
+    u0 https://www.youtube.com/s/player/5dd3f3b2/player_ias.vflset/en_US/base.js:5031
+    create https://www.youtube.com/s/player/5dd3f3b2/player_ias.vflset/en_US/base.js:8621
+    playerBootstrap https://www.youtube.com/watch?v=ycVkX39NdnA:19
+    <anonymous> https://www.youtube.com/watch?v=ycVkX39NdnA:19
+
+TypeError: can't access property "ownerGlobal", aBrowser is null PrivateBrowsingUtils.jsm:40:21
+    isBrowserPrivate resource://gre/modules/PrivateBrowsingUtils.jsm:40
+    canAccessTab chrome://browser/content/parent/ext-browser.js:1204
+    getWrapper chrome://extensions/content/parent/ext-tabs-base.js:1912
+    revokeActiveTabPermission chrome://extensions/content/parent/ext-tabs-base.js:1862
+    revokeActiveTabPermission chrome://browser/content/parent/ext-browser.js:1198
+    clearPopup chrome://browser/content/parent/ext-browserAction.js:547
+    handleEvent chrome://browser/content/parent/ext-browserAction.js:450
+    onmouseout chrome://browser/content/parent/ext-browserAction.js:241
+    (Async: EventHandlerNonNull)
+    onCreated chrome://browser/content/parent/ext-browserAction.js:241
+    aEventName resource:///modules/CustomizableUI.jsm:2867
+    buildWidget resource:///modules/CustomizableUI.jsm:1788
+    getWidgetNode resource:///modules/CustomizableUI.jsm:1164
+    buildArea resource:///modules/CustomizableUI.jsm:974
+    registerToolbarNode resource:///modules/CustomizableUI.jsm:888
+    registerToolbarNode resource:///modules/CustomizableUI.jsm:3604
+    onDOMContentLoaded chrome://browser/content/browser.js:1814
+    onDOMContentLoaded self-hosted:844
+    (Async: EventListener.handleEvent)
+    <anonymous> chrome://browser/content/browser.xhtml:131
